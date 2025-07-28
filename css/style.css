@@ -1,13 +1,65 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #1a1a1a;
   font-family: "Barlow", sans-serif;
+  color: #fff;
 }
 
-* {
-  box-sizing: border-box !important;
-  margin: 0;
-  padding: 0;
+/* General utility classes */
+.section-title {
+  font-size: 3rem;
+}
+
+.section-description {
+  font-size: 1.125rem;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 1.125rem;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn--primary {
+  background-color: #9eff00;
+  color: #000;
+}
+
+.btn--secondary {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.card {
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card__icon {
+  height: 5.5rem;
+  width: 5.5rem;
+}
+
+.card__title {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.card__description {
+  font-size: 1.125rem;
 }
 
 .header {
@@ -16,7 +68,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 1.25rem 0;
-  color: #fff;
   border-bottom: 1px solid #333333;
   position: relative;
 }
@@ -56,12 +107,8 @@ body {
 }
 
 .header__cta-button {
-  font-size: 1.125rem;
   padding: 1rem 1.5rem;
-  background-color: #9eff00;
   border-radius: 0.5rem;
-  border: none;
-  color: #000;
 }
 
 .hero {
@@ -98,10 +145,6 @@ body {
   border-radius: 0.5rem;
   filter: blur(0);
 }
-.hero__description-text {
-  margin: 0;
-  padding: 0;
-}
 .hero__description-highlight {
   color: #fff;
   padding: 0.75rem 0.875rem;
@@ -114,18 +157,10 @@ body {
   margin-top: 3.125rem;
 }
 .hero__button {
-  font-size: 1.125rem;
   padding: 1rem 1.5rem;
   border-radius: 0.5rem;
-  border: none;
-}
-.hero__button--primary {
-  background-color: #9eff00;
-  color: #000;
 }
 .hero__button--secondary {
-  background: #1a1a1a;
-  color: #fff;
   margin-right: 0.813rem;
 }
 .hero__button-link {
@@ -151,8 +186,6 @@ body {
 .companies__badge {
   border-radius: 10rem;
   padding: 1.25rem 2.125rem;
-  margin: 0;
-  color: #fff;
   background-color: #1a1a1a;
   position: absolute;
   top: -2rem;
@@ -184,44 +217,18 @@ body {
   position: absolute;
   width: 2500px;
 }
-.services__header-title {
-  font-size: 3rem;
-  margin-bottom: 0;
-}
-.services__header-description {
-  font-size: 1.125rem;
-  width: 60%;
-  margin: 0 auto;
-}
+
 .services__grid {
   height: 36.063rem;
   display: flex;
 }
 .services__card {
   width: 33%;
-  padding: 3.125rem;
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
-}
-.services__card-icon {
-  height: 5.5rem;
-  width: 5.5rem;
-}
-.services__card-title {
-  font-size: 1.875rem;
-}
-.services__card-description {
-  font-size: 1.125rem;
 }
 .services__card-button {
   width: 100%;
-  font-size: 1.125rem;
   padding: 1.125rem 0;
-  background: #262626;
-  border: none;
-  border-radius: 0.5rem;
-  color: #fff;
 }
 .services__card:nth-child(1),
 .services__card:nth-child(2) {
@@ -248,15 +255,7 @@ body {
   right: 0;
   width: 2500px;
 }
-.features__header-title {
-  font-size: 3rem;
-  margin-bottom: 0;
-}
-.features__header-description {
-  font-size: 1.125rem;
-  width: 60%;
-  margin: 0 auto;
-}
+
 .features__row {
   display: flex;
   border-top: 1px solid #262626;
@@ -264,26 +263,12 @@ body {
 .features__card {
   width: 50%;
   padding: 5rem;
-  display: flex;
-  flex-direction: column;
   row-gap: 2.5rem;
 }
 .features__card-header {
   display: flex;
   column-gap: 1.25rem;
   align-items: center;
-}
-.features__card-icon {
-  height: 5.5rem;
-  width: 5.5rem;
-}
-.features__card-title {
-  font-size: 1.875rem;
-}
-.features__card-description {
-  font-size: 1.125rem;
-  margin: 0;
-  padding: 0;
 }
 .features__row:nth-child(2) .features__card:nth-child(1),
 .features__row:nth-child(3) .features__card:nth-child(1) {
@@ -313,15 +298,7 @@ body {
   left: 0;
   width: 2500px;
 }
-.clients__header-title {
-  font-size: 3rem;
-  margin-bottom: 0;
-}
-.clients__header-description {
-  font-size: 1.125rem;
-  width: 60%;
-  margin: 0 auto;
-}
+
 .clients__testimonials {
   display: flex;
   border-top: 1px solid #262626;
@@ -337,13 +314,9 @@ body {
 .clients__testimonial-title {
   font-size: 1.75rem;
   color: #d8ff99;
-  margin: 0;
-  padding: 0;
 }
 .clients__testimonial-text {
   font-size: 1.125rem;
-  margin: 0;
-  padding: 0;
 }
 .clients__testimonial-info {
   display: flex;
@@ -355,10 +328,6 @@ body {
 .clients__testimonial-profile {
   display: flex;
   column-gap: 1.125rem;
-}
-.clients__testimonial-details * {
-  margin: 0;
-  padding: 0;
 }
 .clients__testimonial-details {
   display: flex;
