@@ -147,3 +147,68 @@ body {
 #logo-companies img {
   padding: 1.25rem 4.667rem;
 }
+
+#our-services {
+  width: 1597px;
+  height: calc(336px + 577px);
+  margin: 0 auto;
+  border: 1px solid #333333;
+  color: #fff;
+}
+#our-services div.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 336px;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+  overflow: hidden;
+  position: relative;
+}
+#our-services div.heading img {
+  position: absolute;
+  width: 2500px;
+}
+#our-services div.heading h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#our-services div.heading p {
+  font-size: 1.125rem;
+  width: 60%;
+  margin: 0 auto;
+}
+#our-services div.services-box {
+  height: 36.063rem;
+  display: flex;
+}
+#our-services div.services-box div {
+  width: 33%;
+  padding: 3.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#our-services div.services-box div img {
+  height: 5.5rem;
+  width: 5.5rem;
+}
+#our-services div.services-box div h4 {
+  font-size: 1.875rem;
+}
+#our-services div.services-box div p {
+  font-size: 1.125rem;
+}
+#our-services div.services-box div button {
+  width: 100%;
+  font-size: 1.125rem;
+  padding: 1.125rem 0;
+  background: #262626;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+#our-services div.services-box div.first,
+#our-services div.services-box div.second {
+  border-right: 1px solid #262626;
+}
