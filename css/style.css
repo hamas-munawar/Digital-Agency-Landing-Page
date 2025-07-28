@@ -57,3 +57,68 @@ body {
   border: none;
   color: #000;
 }
+
+#home {
+  width: 1597px;
+  height: 796px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  overflow-y: hidden;
+  border-left: 1px solid #333333;
+  border-right: 1px solid #333333;
+}
+#home > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: -10rem;
+}
+#home > h3 {
+  margin-top: 7rem;
+  font-size: 4.25rem;
+  margin-bottom: 2.5rem;
+}
+#home > div {
+  background: #1a1a1a;
+  font-size: 1.375rem;
+  color: #98989a;
+  padding: 1.5rem 2.5rem;
+  border: 2px solid #656567;
+  border-radius: 0.5rem;
+  filter: blur(0);
+}
+#home > div span {
+  color: #fff;
+  padding: 0.75rem 0.875rem;
+  background-color: #262626;
+  border-radius: 0.5rem;
+}
+#home > div.button {
+  border: none;
+  background: none;
+  margin-top: 3.125rem;
+}
+#home > div.button > button {
+  font-size: 1.125rem;
+  padding: 1rem 1.5rem;
+  background-color: #9eff00;
+  border-radius: 0.5rem;
+  border: none;
+  color: #000;
+}
+#home > div.button > button a {
+  color: #000;
+  text-decoration-line: none;
+}
+#home > div.button button.work {
+  background: #1a1a1a;
+  margin-right: 0.813rem;
+}
+#home > div.button button.work a {
+  color: #fff;
+}
