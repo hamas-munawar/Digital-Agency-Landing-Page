@@ -228,13 +228,13 @@ body {
   border-right: 1px solid #262626;
 }
 
-#why-choose-us {
+.features {
   width: 1597px;
   margin: 0 auto;
   border: 1px solid #333333;
   color: #fff;
 }
-#why-choose-us div.heading {
+.features__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,54 +243,53 @@ body {
   position: relative;
   overflow: hidden;
 }
-#why-choose-us div.heading img {
+.features__header-background {
   position: absolute;
   right: 0;
   width: 2500px;
 }
-#why-choose-us div.heading h3 {
+.features__header-title {
   font-size: 3rem;
   margin-bottom: 0;
 }
-#why-choose-us div.heading p {
+.features__header-description {
   font-size: 1.125rem;
   width: 60%;
   margin: 0 auto;
 }
-#why-choose-us > div.why-choose-box {
+.features__row {
   display: flex;
   border-top: 1px solid #262626;
 }
-#why-choose-us > div.why-choose-box > div {
+.features__card {
   width: 50%;
   padding: 5rem;
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
 }
-#why-choose-us > div.why-choose-box > div > div {
+.features__card-header {
   display: flex;
   column-gap: 1.25rem;
   align-items: center;
 }
-#why-choose-us > div.why-choose-box > div > div img {
+.features__card-icon {
   height: 5.5rem;
   width: 5.5rem;
 }
-#why-choose-us > div.why-choose-box > div > div h4 {
+.features__card-title {
   font-size: 1.875rem;
 }
-#why-choose-us > div.why-choose-box > div p {
+.features__card-description {
   font-size: 1.125rem;
   margin: 0;
   padding: 0;
 }
-#why-choose-us > div.why-choose-box div.first,
-#why-choose-us > div.why-choose-box div.third {
+.features__row:nth-child(2) .features__card:nth-child(1),
+.features__row:nth-child(3) .features__card:nth-child(1) {
   border-right: 1px solid #262626;
 }
-#why-choose-us > div.why-choose-box div.first,
-#why-choose-us > div.why-choose-box div.second {
+.features__row:nth-child(2) .features__card {
   border-bottom: 1px solid #262626;
 }
 
