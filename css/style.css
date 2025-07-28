@@ -163,14 +163,14 @@ body {
   padding: 1.25rem 4.667rem;
 }
 
-#our-services {
+.services {
   width: 1597px;
   height: calc(336px + 577px);
   margin: 0 auto;
   border: 1px solid #333333;
   color: #fff;
 }
-#our-services div.heading {
+.services__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,41 +180,41 @@ body {
   overflow: hidden;
   position: relative;
 }
-#our-services div.heading img {
+.services__header-background {
   position: absolute;
   width: 2500px;
 }
-#our-services div.heading h3 {
+.services__header-title {
   font-size: 3rem;
   margin-bottom: 0;
 }
-#our-services div.heading p {
+.services__header-description {
   font-size: 1.125rem;
   width: 60%;
   margin: 0 auto;
 }
-#our-services div.services-box {
+.services__grid {
   height: 36.063rem;
   display: flex;
 }
-#our-services div.services-box div {
+.services__card {
   width: 33%;
   padding: 3.125rem;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
-#our-services div.services-box div img {
+.services__card-icon {
   height: 5.5rem;
   width: 5.5rem;
 }
-#our-services div.services-box div h4 {
+.services__card-title {
   font-size: 1.875rem;
 }
-#our-services div.services-box div p {
+.services__card-description {
   font-size: 1.125rem;
 }
-#our-services div.services-box div button {
+.services__card-button {
   width: 100%;
   font-size: 1.125rem;
   padding: 1.125rem 0;
@@ -223,8 +223,8 @@ body {
   border-radius: 0.5rem;
   color: #fff;
 }
-#our-services div.services-box div.first,
-#our-services div.services-box div.second {
+.services__card:nth-child(1),
+.services__card:nth-child(2) {
   border-right: 1px solid #262626;
 }
 
