@@ -10,7 +10,7 @@ body {
   padding: 0;
 }
 
-#header {
+.header {
   width: 1597px;
   margin: 0 auto;
   display: flex;
@@ -21,35 +21,41 @@ body {
   position: relative;
 }
 
-#header > .logo {
+.header__logo {
   display: flex;
   align-items: center;
   column-gap: 0.643rem;
 }
-#header > .logo img {
+
+.header__logo-image {
   width: 3.768rem;
 }
-#header > .logo h2 {
+
+.header__logo-text {
   font-size: 1.5rem;
   letter-spacing: 0.1rem;
 }
-#header > nav {
+
+.header__nav {
   display: flex;
   column-gap: 1.875rem;
   align-items: center;
 }
-#header > nav a {
+
+.header__nav-link {
   font-size: 1.125rem;
   color: #e6e6e6;
   text-decoration-line: none;
 }
-#header > nav a.active {
+
+.header__nav-link--active {
   padding: 0.875rem 1.75rem;
   background: #262626;
   border-radius: 0.5rem;
   font-weight: 500;
 }
-#header > button {
+
+.header__cta-button {
   font-size: 1.125rem;
   padding: 1rem 1.5rem;
   background-color: #9eff00;
