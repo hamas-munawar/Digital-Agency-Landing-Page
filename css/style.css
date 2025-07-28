@@ -122,3 +122,28 @@ body {
 #home > div.button button.work a {
   color: #fff;
 }
+
+#logo-companies {
+  width: 1597px;
+  margin: 0 auto;
+  background: #262626;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #333333;
+  position: relative;
+}
+#logo-companies p {
+  border-radius: 10rem;
+  padding: 1.25rem 2.125rem;
+  margin: 0;
+  color: #fff;
+  background-color: #1a1a1a;
+  position: absolute;
+  top: -2rem;
+  left: calc(50% - (215.281px / 2));
+  font-size: 1.125rem;
+}
+#logo-companies img {
+  padding: 1.25rem 4.667rem;
+}
