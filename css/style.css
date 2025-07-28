@@ -212,3 +212,69 @@ body {
 #our-services div.services-box div.second {
   border-right: 1px solid #262626;
 }
+
+#why-choose-us {
+  width: 1597px;
+  margin: 0 auto;
+  border: 1px solid #333333;
+  color: #fff;
+}
+#why-choose-us div.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 336px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+#why-choose-us div.heading img {
+  position: absolute;
+  right: 0;
+  width: 2500px;
+}
+#why-choose-us div.heading h3 {
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+#why-choose-us div.heading p {
+  font-size: 1.125rem;
+  width: 60%;
+  margin: 0 auto;
+}
+#why-choose-us > div.why-choose-box {
+  display: flex;
+  border-top: 1px solid #262626;
+}
+#why-choose-us > div.why-choose-box > div {
+  width: 50%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
+}
+#why-choose-us > div.why-choose-box > div > div {
+  display: flex;
+  column-gap: 1.25rem;
+  align-items: center;
+}
+#why-choose-us > div.why-choose-box > div > div img {
+  height: 5.5rem;
+  width: 5.5rem;
+}
+#why-choose-us > div.why-choose-box > div > div h4 {
+  font-size: 1.875rem;
+}
+#why-choose-us > div.why-choose-box > div p {
+  font-size: 1.125rem;
+  margin: 0;
+  padding: 0;
+}
+#why-choose-us > div.why-choose-box div.first,
+#why-choose-us > div.why-choose-box div.third {
+  border-right: 1px solid #262626;
+}
+#why-choose-us > div.why-choose-box div.first,
+#why-choose-us > div.why-choose-box div.second {
+  border-bottom: 1px solid #262626;
+}
