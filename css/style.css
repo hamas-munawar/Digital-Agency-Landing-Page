@@ -293,13 +293,13 @@ body {
   border-bottom: 1px solid #262626;
 }
 
-#clients {
+.clients {
   width: 1597px;
   margin: 0 auto;
   border: 1px solid #333333;
   color: #fff;
 }
-#clients div.heading {
+.clients__header {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -308,25 +308,25 @@ body {
   position: relative;
   overflow: hidden;
 }
-#clients div.heading img {
+.clients__header-background {
   position: absolute;
   left: 0;
   width: 2500px;
 }
-#clients div.heading h3 {
+.clients__header-title {
   font-size: 3rem;
   margin-bottom: 0;
 }
-#clients div.heading p {
+.clients__header-description {
   font-size: 1.125rem;
   width: 60%;
   margin: 0 auto;
 }
-#clients > div.clients-box {
+.clients__testimonials {
   display: flex;
   border-top: 1px solid #262626;
 }
-#clients > div.clients-box > div {
+.clients__testimonial {
   width: 50%;
   height: 35.875rem;
   padding: 6.25rem 5rem;
@@ -334,45 +334,45 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-#clients > div.clients-box > div > h4 {
+.clients__testimonial-title {
   font-size: 1.75rem;
   color: #d8ff99;
   margin: 0;
   padding: 0;
 }
-#clients > div.clients-box > div p {
+.clients__testimonial-text {
   font-size: 1.125rem;
   margin: 0;
   padding: 0;
 }
-#clients > div.clients-box > div > div.client-info {
+.clients__testimonial-info {
   display: flex;
   justify-content: space-between;
   padding: 1.344rem 1.25rem;
   background: rgba(36, 36, 36, 0.4);
   border-radius: 0.5rem;
 }
-#clients > div.clients-box > div > div.client-info > div {
+.clients__testimonial-profile {
   display: flex;
   column-gap: 1.125rem;
 }
-#clients > div.clients-box > div > div.client-info > div > div * {
+.clients__testimonial-details * {
   margin: 0;
   padding: 0;
 }
-#clients > div.clients-box > div > div.client-info > div > div {
+.clients__testimonial-details {
   display: flex;
   flex-direction: column;
   justify-content: center;
   row-gap: 0.125rem;
 }
-#clients > div.clients-box > div > div.client-info > div > div h4 {
+.clients__testimonial-name {
   font-size: 1.25rem;
 }
-#clients > div.clients-box > div > div.client-info > div > div p {
+.clients__testimonial-position {
   font-size: 1.125rem;
 }
-#clients > div.clients-box > div > div.client-info button {
+.clients__testimonial-button {
   padding: 1.125rem 1.125rem;
   border: none;
   background: #262626;
@@ -380,12 +380,10 @@ body {
   border-radius: 0.5rem;
   font-size: 1.125rem;
 }
-#clients > div.clients-box div.first,
-#clients > div.clients-box div.third {
+.clients__testimonials .clients__testimonial:first-child {
   border-right: 1px solid #262626;
 }
-#clients > div.clients-box div.first,
-#clients > div.clients-box div.second {
+.clients__testimonials:first-of-type .clients__testimonial {
   border-bottom: 1px solid #262626;
 }
 
