@@ -161,17 +161,12 @@ Main color palette defined in CSS custom properties:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 📞 Contact
 
-**SquareUp Digital Agency**
-- Website: [Your Website URL]
-- Email: contact@squareup.com
-- Phone: +1 (555) 123-4567
+**Hamas Muanwar Developer**
+- Website: hamas-munawar.com
+- Email: muhammadhamasmunawar@gmail.com
 
 ---
 
-*Built with ❤️ by the SquareUp team*
+*Built with ❤️ by the Hamas Munawar*
